@@ -6,6 +6,16 @@ public class Turista {
 
     // Construtor Padrão
     Turista(){}
+
+    // Sobrecarga do Construtor personalizado
+    Turista(String _nome) { thhis.nome = _nome}
+
+    // Mais uma sobrecarga do construtor
+    Turista(String _nome, String _cpf) {
+        this.nome = _nome;
+        this.cpf = _cpf;
+    }
+
     // Construtor personalizado
     Turista(String _nome){
         this.nome = _nome;
